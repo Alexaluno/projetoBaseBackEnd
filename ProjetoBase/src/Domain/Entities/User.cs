@@ -1,5 +1,6 @@
 ﻿using Domain.Core.Models;
 using Domain.Enums;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -98,7 +99,42 @@ namespace Domain.Entities
 
         public override bool EhValido()
         {
-            throw new NotImplementedException();
+            Validar();
+            return ValidationResult.IsValid;
         }
+
+        #region Validações
+        private void Validar()
+        {
+            ValidarUserName();
+            ValidarPassword();
+            ValidarEmail();            
+            ValidationResult = Validate(this);
+
+        }
+        private void ValidarUserName()
+        {
+            RuleFor(c => c.Username)
+                .NotEmpty().WithMessage("O nome do evento precisa ser fornecido")
+                .Length(2, 150).WithMessage("O nome do evento precisa ter entre 2 e 150 caracteres");
+        }
+
+        private void ValidarPassword()
+        {
+            RuleFor(c => c.Password)
+                .NotEmpty().WithMessage("O nome do evento precisa ser fornecido")
+                .Length(2, 150).WithMessage("O nome do evento precisa ter entre 2 e 150 caracteres");
+        }
+
+        private void ValidarEmail()
+        {
+            RuleFor(c => c.Email)
+                .NotEmpty().WithMessage("O nome do evento precisa ser fornecido")
+                .Length(2, 150).WithMessage("O nome do evento precisa ter entre 2 e 150 caracteres");
+        }
+
+        #endregion
+
+
     }
 }

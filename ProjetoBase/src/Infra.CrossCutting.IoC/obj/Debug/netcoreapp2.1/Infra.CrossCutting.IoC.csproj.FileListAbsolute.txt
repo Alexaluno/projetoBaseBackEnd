@@ -1,0 +1,6 @@
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.deps.json
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.dll
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.1\Infra.CrossCutting.IoC.csprojAssemblyReference.cache

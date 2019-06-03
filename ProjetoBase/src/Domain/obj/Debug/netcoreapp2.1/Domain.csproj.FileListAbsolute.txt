@@ -4,3 +4,9 @@ C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.
 C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.csproj.CoreCompileInputs.cache
 C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfoInputs.cache
 C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\bin\Debug\netcoreapp2.1\Domain.Core.dll
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\bin\Debug\netcoreapp2.1\Domain.Core.pdb
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.csproj.CopyComplete
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.dll
+C:\Git\projetoBaseBackEnd\ProjetoBase\src\Domain\obj\Debug\netcoreapp2.1\Domain.pdb

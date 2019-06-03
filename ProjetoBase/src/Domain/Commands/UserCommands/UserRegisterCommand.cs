@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Domain.Commands.UserCommands
 {
-    public class RegisterUserCommand
+    public class UserRegisterCommand
     {
-        public RegisterUserCommand(string email, string username, string password)
+        public UserRegisterCommand(string email, string username, string password)
         {
             Email = email;
             Username = username;
